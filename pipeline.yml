@@ -63,5 +63,5 @@ jobs:
       - put: deploy-to-cf
         params:
           manifest: pcfapp/manifest.yml
-          current_app_name: hello-pcf-upgrade
+          current_app_name: hello-pcf-cicd
           path: out/blog-0.0.1-SNAPSHOT.jar

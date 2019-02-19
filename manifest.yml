@@ -1,0 +1,10 @@
+---
+applications:
+  - name: hello-pcf-cicd
+    path: build/libs/blog-0.0.1-SNAPSHOT.jar
+    buildpack: java_buildpack
+    random-route: false
+    routes:
+      - route: hello-pcf-upgrade-spontaneous-cheetah.cfapps.io
+    env:
+      management.endpoints.web.exposure.include: env
