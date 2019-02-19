@@ -12,7 +12,7 @@ resources:
       api: api.run.pivotal.io
       username: syanagihara@pivotal.io
       password: yanaYANA0928!
-      organization: APJ
+      organization: syanagihara-org
       space: development
       skip_cert_check: true
 jobs:
