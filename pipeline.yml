@@ -10,9 +10,9 @@ resources:
     type: cf
     source:
       api: api.run.pivotal.io
-      username: <YOUR_USERID>
-      password: <YOUR_PASSWD>
-      organization: <YOUR_ORG>
+      username: syanagihara@pivotal.io
+      password: yanaYANA0928!
+      organization: APJ
       space: development
       skip_cert_check: true
 jobs:
