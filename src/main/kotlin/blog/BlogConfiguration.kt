@@ -13,7 +13,7 @@ class BlogConfiguration {
 
         val syanagihara = userRepository.save(User("syanagihara", "Shinya", "Yanagihara"))
         articleRepository.save(Article(
-                title = "2月の貿易収支、1兆4152億円の赤字　対中輸出17%減",
+                title = "1月の貿易収支、1兆4152億円の赤字　対中輸出17%減",
                 headline = "財務省が20日発表した1月の貿易統計速報（通関ベース）によると...",
                 content = "財務省が20日発表した1月の貿易統計速報（通関ベース）によると、輸出額から輸入額を差し引いた貿易収支は1兆4152億円の赤字だった",
                 author = syanagihara
